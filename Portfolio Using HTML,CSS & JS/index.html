@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>FRONTEND DEVELOPER | AMAR BHAGAT</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="#"><i class="ri-mail-fill"></i></a>
+        <a href="#"><i class="ri-github-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">Portfolio<span>.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#service">Services</a></li>
+            <li class="link"><a href="#client">Clients</a></li>
+            <li class="link"><a href="#skills">Skills</a></li>
+            <li class="link"><a href="#blog">Blog</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="me2.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Frontend Developer | Web Developer | Learner</h4>
+          <h1>Hi, I'm Amar Bhagat. This Is My Favourite Work!</h1>
+          <p>
+            I'm a dedicated web developer with a creative flair and a penchant
+            for turning lines of code into captivating online experiences. My
+            journey in the digital realm began years ago, and I've since honed
+            my skills in front-end and back-end development.
+          </p>
+          <button class="btn">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="me.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi There I Am Amar Bhagat</h2>
+        <p>
+          A passionate web developer with a creative flair and a knack for
+          turning visions into reality. My journey in web development began with
+          a fascination for coding and design, and it has evolved into a career
+          where I blend aesthetics with functionality.
+        </p>
+        <h4>
+          With a focus on user experience and a commitment to staying updated
+          with the latest industry trends, I'm dedicated to creating web
+          solutions that not only meet but exceed expectations.
+        </h4>
+        <div class="about__btns">
+          <a href="./resume/resume.pdf" download class="download__btn">
+            Download Resume
+          </a>
+          <a href="#"><i class="ri-mail-fill"></i></a>
+          <a href="#"><i class="ri-github-fill"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-pen-nib-line"></i></span>
+        <div>
+          <h4>Design</h4>
+          <p>
+            Our designers and content creators are committed to delivering
+            engaging digital content.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-layout-masonry-line"></i></span>
+        <div>
+          <h4>Development</h4>
+          <p>
+            We stay at forefront of technological advancements, ensuring your
+            digital presence performant.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-checkbox-line"></i></span>
+        <div>
+          <h4>Testing & QA</h4>
+          <p>
+            We understand that your digital presence should not just look good,
+            it should deliver traffic & engagement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">Our Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".web">Web Apps</button>
+          <button class="btn project__btn" data-filter=".game">Games</button>
+          <button class="btn project__btn" data-filter=".design">
+            Designs
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix web">
+          <img src="assets\assets\project-1.jpg" alt="project" />
+        </div>
+        <div class="project__card mix game">
+          <img src="assets\assets\project-2.jpg" alt="project" />
+        </div>
+        <div class="project__card mix design">
+          <img src="assets\assets\project-3.jpg" alt="project" />
+        </div>
+        <div class="project__card mix web">
+          <img src="assets\assets\project-4.jpg" alt="project" />
+        </div>
+        <div class="project__card mix game">
+          <img src="assets\assets\project-5.jpg" alt="project" />
+        </div>
+        <div class="project__card mix design">
+          <img src="assets\assets\project-6.jpg" alt="project" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">Our Services</p>
+      <h2 class="section__header">What We Do?</h2>
+      <p class="section__description">
+        We specialize in a wide range of web development services designed to
+        transform your vision into reality.
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Website Design</h4>
+          <p>
+            We craft user-friendly interfaces that engage visitors and help you
+            achieve your online goals with minimum efforts.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-store-line"></i></span>
+          <h4>E-commerce Solutions</h4>
+          <p>
+            We build secure, scalable, and user-centric online stores that
+            enhance the shopping experience and drive conversions.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-smartphone-line"></i></span>
+          <h4>Mobile Development</h4>
+          <p>
+            From iOS to Android, we create apps that deliver seamless
+            performance and keep users coming back for more.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-fill"></i></span>
+          <h4>Content Marketing</h4>
+          <p>
+            Our services include creating blog posts, videos, and social media
+            content that drives traffic and engagement.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-seo-line"></i></span>
+          <h4>SEO</h4>
+          <p>
+            Our SEO strategies are tailored to your specific goals, helping you
+            reach your target audience and grow your online presence.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-circle-line"></i></span>
+          <h4>Digital Marketing</h4>
+          <p>
+            From pay-per-click (PPC) advertising to social media marketing, we
+            ensure your brand stands out in the crowded digital landscape.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <p class="section__subheader">Testimonials</p>
+      <h2 class="section__header">What Our Clients Say About Us</h2>
+      
+      <div class="swiper">
+      
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="daniel.jpg" alt="client" />
+              <div>
+                <p>
+                  They transformed our online presence with their SEO and
+        content marketing services. Our website now ranks higher in
+        search results, and the quality of leads has improved
+        substantially. I highly recommend their digital marketing
+        expertise.
+                </p>
+                <h4>Daniel<span>CEO </span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="william.jpg" alt="client" />
+              <div>
+                <p>
+                  Working with them has been a game-changer for our business.
+                  Their web development expertise helped us create a sleek and
+                  responsive website that has significantly increased our online
+                  sales. Their dedication and innovative solutions truly set
+                  them apart.
+                </p>
+                <h4>Williams<span>Marketing Director</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="melissa.jpg" alt="client" />
+              <div>
+                <p>
+                  Our digital marketing strategy needed a revamp, and they
+                  delivered outstanding results. Their team's creative approach
+                  to PPC campaigns and social media advertising has generated a
+                  significant increase in our website traffic and conversions.
+                </p>
+                <h4>Melissa  <span>Marketing Manager</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="alexander.jpg" alt="client" />
+              <div>
+                <p>
+                  The mobile app they developed for our company exceeded our
+                  expectations. Not only is it user-friendly, but it also helped
+                  us connect with our customers on a whole new level. Their
+                  attention to detail and commitment to delivering on time were
+                  exceptional.
+                </p>
+                <h4>Alexander <span>Product Manager</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <h1><center>My Skills</center></h1>
+    <br> <br>
+
+<h1>Technical Skills</h1>
+<br> <br> 
+<div class="container" id="skills">
+  <div class="skills">
+    <div class="skill-item">
+      <span>Javascript</span>
+      <div class="progress">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+      <span class="progress-value">90%</span>
+    </div>
+    <div class="skill-item">
+      <span>Java</span>
+      <div class="progress">
+        <div class="progress-bar" style="width: 85%;"></div>
+      </div>
+      <span class="progress-value">85%</span>
+    </div>
+    <div class="skill-item">
+      <span>Python</span>
+      <div class="progress">
+        <div class="progress-bar" style="width: 80%;"></div>
+      </div>
+      <span class="progress-value">80%</span>
+    </div>
+    <div class="skill-item">
+      <span>React</span>
+      <div class="progress">
+        <div class="progress-bar" style="width: 75%;"></div>
+      </div>
+      <span class="progress-value">75%</span>
+    </div>
+  </div>
+
+  <div class="professional-skills">
+    <h1>Professional Skills</h1>
+    <br>
+    <span>Communication</span>
+    <div class="skill-circle team-work">
+      <div class="progress-bar"></div>
+      <span class="progress-value">90%</span>
+    </div>
+    
+    <span>Team work</span>
+    <div class="skill-circle team-work">
+      <div class="progress-bar"></div>
+      <span class="progress-value">55%</span>
+    </div>
+  
+    <span>Problem solving</span>
+    <div class="skill-circle problem-solving">
+      <div class="progress-bar"></div>
+      <span class="progress-value">60%</span>
+    </div>
+
+    <span>Adaptation</span>
+    <div class="skill-circle adaptation">
+      <div class="progress-bar"></div>
+      <span class="progress-value">70%</span>
+    </div>
+
+  </div>
+</div>
+
+    <section class="section__container blog__container" id="blog">
+      <p class="section__subheader">Blog Posts</p>
+      <h2 class="section__header">I Love To Write Articles</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRNvaPrcXUYX3s8QyLdKC-AK0CB95ZuDrWbg&s"
+           alt="blog" />
+          <p>Case Study</p>
+          <h4>Turning Clicks into Conversions with PPC</h4>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog__card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiCU-MwsfuGtEYedfVi_nRkhslstXZeohw3w&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" 
+          alt="blog" />
+          <p>Educational/How-To</p>
+          <h4>The Ultimate Guide to Website Accessibility</h4>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog__card">
+          <img src="data:image/jpeg;base64,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" 
+          alt="blog" />
+          <p>Trend Analysis</p>
+          <h4>2024Web Design Trends: What's In and What's Out</h4>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Us</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Description" />
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Amar Bhagat</a></h5>
+          <p>
+            I'm a dedicated web developer with a creative flair and a penchant
+            for turning lines of code into captivating online experiences.
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-mail-fill"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-dribbble-line"></i></a>
+          </div>
+        </div>
+
+
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <a href="#">Web Design</a>
+            <a href="#">App Design</a>
+            <a href="#">Photography</a>
+            <a href="#">Videography</a>
+            <a href="#">Web Development</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <div class="footer__links">
+            <a href="#">Contact</a>
+            <a href="#">My Blog</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Portfolio. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
